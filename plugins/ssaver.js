@@ -149,22 +149,22 @@ global.waPresence = process.env.WAPRESENCE && process.env.WAPRESENCE === "online
 // global.readmessage = process.env.READ_MESSAGE || global.readmessage || "false"; 
 // global.readmessagefrom = process.env.READ_MESSAGE_FROM || global.readmessagefrom || "false"; 
 // global.readcmds = process.env.READ_COMMAND || global.readcmds || "true" 
-global.YT_PROMOTE = "_https://youtube.com/SuhailTechInfo_ \n*FOLLOW ME:* _tiktok.com/@itx.suhail.0_" // PAID PROMOTION TO GET YOUTUBE SUBSCRIBERS
+global.YT_PROMOTE = "_https://youtube.com/@basanzietech_ \n*FOLLOW ME:* _tiktok.com/@kisekason_" // PAID PROMOTION TO GET YOUTUBE SUBSCRIBERS
 global.config_dir = require("path").join(__dirname,'../','./config')
 
 
 // global.api_smd = "https://api-smd.onrender.com" //"https://api-smd-1.vercel.app" EXPIRED VERCEL
-global.gurl  = process.env.GURL  || "https://whatsapp.com/channel/0029VadHtwWFCCoaogdKsh0B";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
+global.gurl  = process.env.GURL  || "https://whatsapp.com/channel/0029VaJX1NzCxoAyVGHlfY2l";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/basanzietech/shakira-md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "255657779003";
 
 
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923004591719";
-global.github=process.env.GITHUB || "https://github.com/SuhailTechInfo/Suhail-Md";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "255657779003,255687770687";
+global.github=process.env.GITHUB || "https://github.com/basanzietech/shakira-md";
 
 
 
@@ -253,7 +253,7 @@ smd(
 // global.read_status =  process.env.AUTO_READ_STATUS || global.read_status || "false"; 
 // global.save_status =  process.env.AUTO_SAVE_STATUS || global.save_status || "false";
 // global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null";
-// global.read_status_from =  process.env.READ_STATUS_FROM  || global.read_status_from || "923184474176";
+// global.read_status_from =  process.env.READ_STATUS_FROM  || global.read_status_from || "255657779003";
 smd(
    { on: "status" },
    async(message,text) => {
